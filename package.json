@@ -1,0 +1,52 @@
+{
+  "name": "ev-charger-simulator-ocpp16",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "description": "A TypeScript-based simulator of EV chargers using OCPP 1.6 protocol. Useful for testing and prototyping CPMS integrations.",
+  "author": "nktisai@gmail.com",
+  "keywords": [
+    "OCPP",
+    "EV",
+    "charging",
+    "simulator",
+    "OCPP1.6",
+    "TypeScript",
+    "WebSocket"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node src/index.ts",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "devDependencies": {
+    "@mykyta-isai/eslint-config": "^1.0.3",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.3",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "eslint": "^9.29.0",
+    "eslint-plugin-import": "^2.31.0",
+    "jest": "^30.0.2",
+    "ts-jest": "^29.4.0"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.11",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "node-cron": "^4.2.1",
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.8.3",
+    "winston": "^3.17.0",
+    "ws": "^8.18.2"
+  }
+}
