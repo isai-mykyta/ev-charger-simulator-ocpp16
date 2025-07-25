@@ -18,8 +18,8 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts",
     "start": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
     "test": "jest --verbose",
     "test:coverage": "jest --coverage --verbose"
   },
