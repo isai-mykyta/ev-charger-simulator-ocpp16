@@ -33,17 +33,7 @@ yarn install
 
 ### ⚙️ Environment Configuration
 
-Before running the simulator, you must create a .env file in the root directory with the following variables:
-
-```
-CHARGE_POINT_VENDOR=MyCharger
-CHARGE_POINT_MODEL=ModelX
-CHARGE_POINT_FIRMWARE_VERSION=1.0.0
-CHARGE_POINT_WEBSOCKET_PING_INTERVAL=30000
-CHARGE_POINT_WEBSOCKET_URL=ws://localhost:9000
-CHARGE_POINT_SERIAL_NUMBER=CHG123456
-CHARGE_POINT_IDENTITY=CHG-1
-```
+Before running the simulator, you must create a .env file in the root directory with the  variables provided in .env.example
 🛑 The app will throw an error on startup if required variables are missing or invalid.
 
 ### Running the Simulator
