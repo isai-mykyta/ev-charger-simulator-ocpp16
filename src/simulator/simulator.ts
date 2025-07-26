@@ -128,7 +128,7 @@ export class Simulator extends WebSocketClient {
     const pingInterval = Number(configService.getConfig("WebSocketPingInterval").value);
 
     await this.connect({
-      url: `${this.webSocketUrl}/${this.identity}`,
+      url: `${this.webSocketUrl}`,
       pingInterval
     });
 
